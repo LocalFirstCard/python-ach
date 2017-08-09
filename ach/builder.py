@@ -184,7 +184,7 @@ class AchFile(object):
 
     def get_entry_desc(self, std_ent_cls_code):
 
-        if std_ent_cls_code == 'PPD':
+        if std_ent_cls_code == 'WEB':
             entry_desc = 'CARDTOBANKSD1700'
         elif std_ent_cls_code == 'CCD':
             entry_desc = 'DUES'
